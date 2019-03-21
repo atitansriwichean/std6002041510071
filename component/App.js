@@ -9,7 +9,7 @@ class App extends React.Component {
             <View>
                 <Text>Atitan </Text>
             </View>
-        );
+        );  
     }
 }
 
