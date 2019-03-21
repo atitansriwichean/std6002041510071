@@ -7,7 +7,7 @@ class App extends React.Component {
     render() {
         return (
             <View>
-                <Text>Hello World</Text>
+                <Text>Atitan </Text>
             </View>
         );
     }
