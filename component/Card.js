@@ -7,18 +7,24 @@ class Card extends Component {
         return (
             <View>
                 <CardSection>
+                    <View style={{flexDirection:'row', marginTop: 10, marginLeft: 10}}>
                     <Image 
                         style={{width: 100, height: 100 }}
                         source={{uri: 'https://pbs.twimg.com/profile_images/961593902175174656/AOfAhwcZ_400x400.jpg'}} 
                     />
-                <Text>Baby Don't Stop</Text>
-                <Text>TaeTen</Text>
+                    <View style={{marginTop: 20, marginLeft: 40}}>
+                        <Text style={{fontSize: 25}}>Baby Don't Stop</Text>
+                        <Text style={{fontSize: 20}}>TaeTen</Text>
+                    </View>
+                </View>
                 </CardSection>
                 <CardSection>
+                    <View style={{marginTop:10, marginLeft: 10}}>
                     <Image 
-                        style={{width: 420, height: 300 }}
+                        style={{width: 390, height: 280 }}
                         source={{uri: 'https://pbs.twimg.com/profile_images/961593902175174656/AOfAhwcZ_400x400.jpg'}} 
                     />
+                    </View>
                 </CardSection>
                 <CardSection>
                     <View style={styles.button}>
@@ -38,8 +44,8 @@ const styles = {
     button: {
         justifyContent: 'center',
         alignItems: 'center', 
-        marginTop: 10
-    }
+        marginTop: 10,
+    },
 }
 
 export default Card;
