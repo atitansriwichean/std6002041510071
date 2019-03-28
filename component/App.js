@@ -10,7 +10,7 @@ class App extends React.Component {
         return (
             <View>
                 <Header title="Albums" />
-                <Text>Atitan </Text>
+                <Text>taeten</Text>
                 <Card />
             </View>
         );  
