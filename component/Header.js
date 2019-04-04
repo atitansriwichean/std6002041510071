@@ -19,9 +19,12 @@ const style = {
         padding: 10,
         alignItems: 'center',
         backgroundColor: 'pink'
+        
     },
     text: {
-        fontSize: 30
+        fontSize: 30,
+        color:'white',
+        fontWeight: 'bold'
     }
 }
 
