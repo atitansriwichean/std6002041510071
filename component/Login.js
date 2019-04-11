@@ -52,7 +52,7 @@ export default class Login extends React.Component{
             this.props.navigation.navigate("Me");
         }.bind(this))
         .catch(function (error) {
-            alert("Login fail !");
+            alert("Login fail! Please check your email and password.");
             console.log(error);
         });
     }

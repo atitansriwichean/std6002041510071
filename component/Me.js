@@ -17,7 +17,7 @@ export default class Me extends React.Component {
 
         this.state = {
             loading: true,
-            name: "Loading...",
+            name: "Loading... ",
             email: "Loading...",
         };
     }
@@ -83,10 +83,10 @@ export default class Me extends React.Component {
         return (
             !this.state.loading ? 
             <View style={{ padding: 20 }}>
-                <Text style={{ textAlign: "center", fontSize: 28, color: "pink", marginBottom: 20 }}>Your profile is ....</Text>
+                <Text style={{ textAlign: "center", fontSize: 30, color: "pink", marginBottom: 20 }}>Your profile is ....</Text>
 
-                <Text style={{ marginBottom: 10, fontSize: 16 }}>Name: {this.state.name}</Text>
-                <Text style={{ marginBottom: 10, fontSize: 16 }}>Email: {this.state.email}</Text>
+                <Text style={{ marginBottom: 10, fontSize: 18 }}>Name: {this.state.name}</Text>
+                <Text style={{ marginBottom: 10, fontSize: 18 }}>Email: {this.state.email}</Text>
 
                 <Button title="Logout" onPress={this.logout.bind(this)} color="black" />
             </View> : 
